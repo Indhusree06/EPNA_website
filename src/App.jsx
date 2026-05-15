@@ -19,7 +19,7 @@ const stubs = [
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/EPNA_website">
       <Layout>
         <Routes>
           <Route path="/" element={<Home />} />
